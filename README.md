@@ -1,4 +1,5 @@
 # nvim-config
+
 use { "neovim/nvim-lspconfig",
       config = get_config("lsp"),
       require('lspconfig').gopls.setup{
